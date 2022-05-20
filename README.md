@@ -1,8 +1,8 @@
 # Waqar Khan's Personal Portfolio website
 
 Website link: [Darkwaqar.github.io](Darkwaqar.github.io)
-
-![Protfolio GIF](https://user-images.githubusercontent.com/8108361/59652016-03d01a00-91c7-11e9-8106-798d16488073.gif)
+<!-- 
+![Protfolio GIF](https://user-images.githubusercontent.com/8108361/59652016-03d01a00-91c7-11e9-8106-798d16488073.gif) -->
 
 ## How to deploy?
 
@@ -20,7 +20,7 @@ Website link: [Darkwaqar.github.io](Darkwaqar.github.io)
 
 The MIT License (MIT)
 
-Copyright (c) 2019 Waqar Khan
+Copyright (c) 2022 Waqar Khan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
