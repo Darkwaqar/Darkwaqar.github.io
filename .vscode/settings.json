@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "cSpell.words": [
+        "Waqar"
+    ]
+}
