@@ -35786,6 +35786,8 @@ module.exports = "/insta.54ac694c.svg";
 module.exports = "/dribbble.72bc2d7b.svg";
 },{}],"Assets/Images/Social/linkedin.svg":[function(require,module,exports) {
 module.exports = "/linkedin.a58775df.svg";
+},{}],"Assets/Images/Social/fb.svg":[function(require,module,exports) {
+module.exports = "/fb.ff05f75c.svg";
 },{}],"Slides/WideScreen/ContactSlide/SocialLogo.js":[function(require,module,exports) {
 "use strict";
 
@@ -35913,6 +35915,8 @@ var _dribbble = _interopRequireDefault(require("../../../Assets/Images/Social/dr
 
 var _linkedin = _interopRequireDefault(require("../../../Assets/Images/Social/linkedin.svg"));
 
+var _fb = _interopRequireDefault(require("../../../Assets/Images/Social/fb.svg"));
+
 var _SocialLogo = _interopRequireDefault(require("./SocialLogo"));
 
 var _breakpoints = _interopRequireDefault(require("../../../Assets/Responsive/breakpoints"));
@@ -36033,6 +36037,14 @@ var Contact = /*#__PURE__*/function (_Component) {
         imgURL: _insta.default,
         alternate: "Instagram",
         redirectURL: "https://www.instagram.com/darkwaqar/"
+      }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
+        imgURL: _linkedin.default,
+        alternate: "Linkedin",
+        redirectURL: "https://www.linkedin.com/in/Darkwaqar"
+      }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
+        imgURL: _fb.default,
+        alternate: "Facebook",
+        redirectURL: "https://www.facebook.com/DarkAngelWaqar"
       })));
     }
   }]);
@@ -36042,7 +36054,7 @@ var Contact = /*#__PURE__*/function (_Component) {
 
 var _default = Contact;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../Assets/Images/Social/twitter.svg":"Assets/Images/Social/twitter.svg","../../../Assets/Images/Social/git.svg":"Assets/Images/Social/git.svg","../../../Assets/Images/Social/mail.svg":"Assets/Images/Social/mail.svg","../../../Assets/Images/Social/insta.svg":"Assets/Images/Social/insta.svg","../../../Assets/Images/Social/dribbble.svg":"Assets/Images/Social/dribbble.svg","../../../Assets/Images/Social/linkedin.svg":"Assets/Images/Social/linkedin.svg","./SocialLogo":"Slides/WideScreen/ContactSlide/SocialLogo.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Slides/Mobile/HeroSlide/NameAndJobTitle.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","../../../Assets/Images/Social/twitter.svg":"Assets/Images/Social/twitter.svg","../../../Assets/Images/Social/git.svg":"Assets/Images/Social/git.svg","../../../Assets/Images/Social/mail.svg":"Assets/Images/Social/mail.svg","../../../Assets/Images/Social/insta.svg":"Assets/Images/Social/insta.svg","../../../Assets/Images/Social/dribbble.svg":"Assets/Images/Social/dribbble.svg","../../../Assets/Images/Social/linkedin.svg":"Assets/Images/Social/linkedin.svg","../../../Assets/Images/Social/fb.svg":"Assets/Images/Social/fb.svg","./SocialLogo":"Slides/WideScreen/ContactSlide/SocialLogo.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Slides/Mobile/HeroSlide/NameAndJobTitle.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38313,7 +38325,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65220" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56468" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
