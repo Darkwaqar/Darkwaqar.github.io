@@ -6,6 +6,7 @@ import mailImg from '../../../Assets/Images/Social/mail.svg';
 import instaImg from '../../../Assets/Images/Social/insta.svg';
 import dribbbleImg from '../../../Assets/Images/Social/dribbble.svg';
 import linkedInImg from '../../../Assets/Images/Social/linkedin.svg';
+import fbImg from '../../../Assets/Images/Social/fb.svg';
 import SocialLogo from './SocialLogo';
 import device from '../../../Assets/Responsive/breakpoints';
 
@@ -93,8 +94,9 @@ class Contact extends Component {
           <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/Darkwaqar" />
           <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:urspecial1one@gmail.com" />
           <SocialLogo imgURL={instaImg} alternate="Instagram" redirectURL="https://www.instagram.com/darkwaqar/" />
-          {/* <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/Darkwaqar29" />
-          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/Darkwaqar29" /> */}
+          {/* <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/Darkwaqar29" />*/}
+          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/Darkwaqar" /> 
+          <SocialLogo imgURL={fbImg} alternate="Facebook" redirectURL="https://www.facebook.com/DarkAngelWaqar" /> 
         </SocialMediaIcons>
       </Container>
     );
